@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Componentes App</string>
+    <string name="title_activity_main">Componentes App</string>
+    <string name="package_name">com.technyks.componentes</string>
+    <string name="custom_url_scheme">com.technyks.componentes</string>
+</resources>

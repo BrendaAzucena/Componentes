@@ -1,0 +1,23 @@
+<app-header titulo="ProgressBar Ranger"></app-header>
+
+<ion-content>
+  
+  <ion-progress-bar [value]="porcentaje"></ion-progress-bar>
+
+ <ion-list>
+   <ion-item>
+     <ion-range min="1" max="100" pin="true" color="tertiary"
+      (ionChange)="cambioRango($event)"> <!--(ionChange) funciona cada vez que cambia un valor de el-->
+    <ion-label slot="start">0</ion-label> 
+    <ion-label slot="end">100</ion-label>
+    </ion-range> <!--El pin="true" permite mostrar la borbuja-->
+   </ion-item>
+ </ion-list>
+
+</ion-content>
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-title>Brenda Azucena</ion-title>
+  </ion-toolbar>
+</ion-footer>

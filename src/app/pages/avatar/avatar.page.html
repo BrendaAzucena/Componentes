@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar>
+
+    <ion-buttons slot="start"> 
+      <ion-back-button defaultHref="/"></ion-back-button>
+
+    </ion-buttons>
+  
+    <ion-title>Avatar</ion-title>
+
+    <ion-buttons slot="end">
+     <ion-avatar>
+      <img src="/assets/Ima.jpg">
+     </ion-avatar>
+
+    </ion-buttons>
+
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content>
+
+  <ion-chip color="primary" *ngFor="let i of [1,1,1,1,1,1,1,1]">
+    <ion-avatar>
+      <img src="/assets/Ima.jpg">
+     </ion-avatar>
+     <ion-label>Dory</ion-label>
+  </ion-chip>
+
+  <ion-list>
+    <ion-item *ngFor="let i of [1,1,1,1,1,1,1,1]">
+      <ion-avatar slot="start">
+        <img src="/assets/Ima.jpg">
+       </ion-avatar>
+       <ion-label>Dory</ion-label>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-title>Brenda Azucena</ion-title>
+  </ion-toolbar>
+</ion-footer>
